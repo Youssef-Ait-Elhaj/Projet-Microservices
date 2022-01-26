@@ -1,6 +1,6 @@
 package com.emsi.billingservice.entities;
 
-import com.emsi.billingservice.model.Customer;
+import com.emsi.billingservice.model.CustomerModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,5 +24,5 @@ public class Bill {
     private Long customerID;
 
     @Transient
-    private Customer customer;
+    private CustomerModel customerModel;
 }
